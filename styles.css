@@ -218,6 +218,11 @@ h2 {
 .art-card:nth-child(3) .art-fallback { background: radial-gradient(ellipse at 72% 70%, rgba(36,55,68,.5), transparent 22%), linear-gradient(125deg, #f0e8db, #ceb9a2 52%, #b57258); }
 .art-card:nth-child(4) .art-fallback { background: radial-gradient(circle at 52% 52%, rgba(185,76,50,.42), transparent 17%), linear-gradient(95deg, #adb7b0, #eee9df 38%, #d0b696); }
 .art-caption { position: absolute; left: 16px; right: 16px; bottom: 14px; display: flex; justify-content: space-between; gap: 16px; color: white; text-shadow: 0 1px 10px rgba(0,0,0,.4); font-size: 11px; }
+.art-collection { cursor: pointer; }
+.art-collection summary { list-style: none; }
+.art-collection summary::-webkit-details-marker { display: none; }
+.art-collection summary .art-label { cursor: pointer; }
+.art-coming-soon { padding: 28px 0; text-align: center; color: var(--muted); font: 400 18px/1.5 var(--sans); }
 
 .album { display: grid; grid-template-columns: 1fr 1fr; gap: 8vw; margin-top: 150px; align-items: center; }
 .album-cover {
