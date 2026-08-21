@@ -66,7 +66,7 @@ window.SITE_DATA = {
 
   album: {
     title: "To the Waters and the Wild",
-    description: "An album of musics inspired by the poetry and writing of William Butler Yeats, released in collaboration with The Northern Archipelago — an experiment in music, creativity and technology.",
+    description: "An album of musics inspired by the poetry and writing of William Butler Yeats, released in collaboration with The Northern Archipelago, an experiment in music, creativity and technology.",
     listenUrl: "https://open.spotify.com/album/64o0ewFRtdeqLYXI3mRcIn?si=kJ5VdyohQu-FYoxhM97FXQ",
     artistUrl: "https://open.spotify.com/artist/3BYMpISnoDEEH8ZWdN4iRj?si=wj-NzYepQuaeS6HNGbSEkA",
     tracks: []
